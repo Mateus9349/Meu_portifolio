@@ -1,0 +1,40 @@
+.nav-bar{
+    width: 100%;
+    height: 20vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div-logo{
+    margin-left: 40px;
+}
+
+.logo{
+    width: 10em;
+}
+
+.nav{
+    margin-right: 40px;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(66, 66, 207);
+    text-decoration: none;
+}
+
+.link:hover{
+    color: #02943d;
+}
+
+.link:active{
+    font-size: 30px;
+    color: aquamarine;
+}

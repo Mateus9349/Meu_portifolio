@@ -1,0 +1,13 @@
+footer{
+    display: flex;
+    height: 10vh;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 40%;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+}

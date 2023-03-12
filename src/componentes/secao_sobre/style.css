@@ -1,0 +1,27 @@
+.sobre{
+    display: flex;
+    justify-content: space-around;
+    height: 60vh;
+    background-color: rgb(51, 160, 223);
+}
+
+.foto{
+    width: 20%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.container-sobre{
+    text-align: center;
+    margin-top: 2%;
+    background-color: #fff;
+    border-radius: 50px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+    width: 40%;
+    transition: 2s;
+}
+
+.container-sobre:hover{
+    width: 60%;
+}
