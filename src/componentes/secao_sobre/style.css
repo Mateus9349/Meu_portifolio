@@ -1,27 +1,34 @@
+
+
 .sobre{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     height: 60vh;
-    background-color: rgb(51, 160, 223);
 }
 
 .foto{
-    width: 20%;
+    width: auto;
     height: 100%;
     border-radius: 20px;
+    margin-right: 10%;
 }
 
-.container-sobre{
-    text-align: center;
-    margin-top: 2%;
-    background-color: #fff;
-    border-radius: 50px;
-    padding-top: 50px;
+.info-pessoal{
+    font-style: italic;
+}
+
+.info-pessoal h1{
+    font-size: 30px;
+    color: rgb(17, 168, 243);
     margin-bottom: 20px;
-    width: 40%;
-    transition: 2s;
 }
 
-.container-sobre:hover{
-    width: 60%;
+.info-pessoal h2{
+    color: rgb(182, 204, 223);
+    padding: 5px    ;
+}
+
+.item{
+    color: black;
 }

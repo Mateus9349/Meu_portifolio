@@ -18,7 +18,8 @@ export default function Carrossel(props){
 
                     {props.images.map(image => (
                         <motion.div className="item-card" key={image}>
-                            <img src={image}/>
+                            <h1 className="text-carrossel">{image.name}</h1>
+                            <img src={image.image}/>
                         </motion.div>
                     ))}
 

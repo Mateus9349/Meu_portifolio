@@ -1,0 +1,17 @@
+.container-skills{
+    display: flex;
+    margin: 20px auto;
+    width: 90vw;
+    justify-content: space-around;
+}
+
+.titulo-skill{
+    font-size: 30px;
+    color: rgb(1, 12, 17);
+    margin-bottom: 20px;
+}
+
+.skill{
+    color: rgb(19, 22, 24);
+    font-size: 25px;
+}

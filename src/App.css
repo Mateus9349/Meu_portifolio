@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');
+
 *{
     margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+main{
+    background: linear-gradient(180deg, #E4ECF2 8.55%, #032443 13.35%, rgba(18, 80, 137, 0.723958) 69.9%, rgba(40, 135, 223, 0.401042) 87.24%, rgba(42, 93, 139, 0) 100%);
 }
