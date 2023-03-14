@@ -15,7 +15,7 @@ import  imagem4 from'../../img/curso_web_mobile.jpg'
 const images = [{name: 'Exercito', image: imagem1}, 
 {name: 'Faculdade', image: imagem2},
 {name: 'Estagio Camara Municipal', image: imagem3},
-{name: 'Curso Web Mobile', image: imagem4}
+{name: 'Formação Web Mobile', image: imagem4}
 ]
 
 export default function Home(){
