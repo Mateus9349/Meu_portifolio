@@ -12,6 +12,8 @@ export default function Card(props){
             </div>
             <div className="container" >
                 <h2 className="titulo">{props.titulo}</h2>
+                <p className="texto" >{props.empresa}</p>
+                <p className="texto" >{props.periodo}</p>
                 <p className="texto" >{props.texto}</p>
             </div>
         </section>
