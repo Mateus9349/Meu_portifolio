@@ -7,6 +7,14 @@
     justify-content: space-between;
 }
 
+.title{
+    font-size: 45px;
+    margin-left: 15px;
+    text-decoration: none;
+    color: #bc3915;
+    font-weight: bold;
+}
+
 .div-logo{
     margin-left: 40px;
 }

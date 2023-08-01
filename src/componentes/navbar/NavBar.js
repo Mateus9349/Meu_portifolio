@@ -6,7 +6,7 @@ export default function NavBar(){
     return(
         <header className="nav-bar">
             <div className="div-logo">
-                <Link to='/'><img src="assets/img/logo.png" className="logo" alt="logo de engenharia da computação"/></Link>
+                <Link to='/' className="title">Mateus <span>Vinicius</span></Link>
             </div>
             <nav className="nav">
                 <Link className="link" to='/cursos' >Cursos</Link>

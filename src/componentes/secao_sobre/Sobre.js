@@ -4,7 +4,7 @@ import './style.css'
 export default function Sobre(){
     return(
         <section className="sobre">
-            <img className="foto" src="assets/img/Foto_curriculo.jpg" />
+            <img className="foto" src="assets\img\foto-computador.jpeg" />
 
             <div className="info-pessoal">
                 <h1>Mateus Vinicius Passos de Lima</h1>
