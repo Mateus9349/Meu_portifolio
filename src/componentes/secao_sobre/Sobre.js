@@ -1,10 +1,11 @@
 import React from "react";
+import foto from '../../img/Foto_curriculo2.jpg'
 import './style.css'
 
 export default function Sobre(){
     return(
         <section className="sobre">
-            <img className="foto" src="assets\img\foto-computador.jpeg" />
+            <img className="foto" src={foto} />
 
             <div className="info-pessoal">
                 <h1>Mateus Vinicius Passos de Lima</h1>

@@ -6,7 +6,7 @@ export default function NavBar(){
     return(
         <header className="nav-bar">
             <div className="div-logo">
-                <Link to='/' className="title">Mateus <span>Vinicius</span></Link>
+                <Link to='/' className="title">Desenvolvedor FullStack</Link>
             </div>
             <nav className="nav">
                 <Link className="link" to='/cursos' >Cursos</Link>
