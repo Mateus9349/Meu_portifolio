@@ -1,27 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 import Footer from "../../componentes/footer/Footer";
 import NavBar from "../../componentes/navbar/NavBar";
 import CardProjeto from "../../componentes/CardProjeto";
 
-
-import  imagem1 from'../../img/estagio_camara01.jpeg'
-import  imagem2 from'../../img/estagio_camara02.jpeg'
-import  imagem3 from'../../img/estagio_camara03.jpeg'
-import  imagem4 from'../../img/estagio_camara04.jpeg'
 import SectionProjetoInatu from "../../componentes/SectionProjetoInatu";
+import Button from "../../componentes/Button";
 
-const images = [imagem1, imagem2, imagem3, imagem4];
+import { requisitos } from "../../componentes/js/imagensProjetos";
+
 
 export default function Projetos(){
+    const [clicked, setClicked] = useState(false);
+
     return(
         <>
             <NavBar/>
-            <SectionProjetoInatu/>
+
             <CardProjeto
-            images = {images}
-            titulo = 'Nome do projeto'
-            informacoes = 'Informações do Projeto'
+            images = {requisitos}
+            titulo = 'Levantamento de requisitos'
+            informacoes = 'Participei ativamente do levantamento de requisitos da plataforma inatú, sendo o pricipal responsável pela atividade, através de entrevistas e analise observacional'
             />
+
+            <Button text={'Projeto inatu'} onClick={() => setClicked(!clicked)}/>
+            {clicked ? <SectionProjetoInatu/> : ''}
+
+            <CardProjeto 
+            images= {requisitos}
+            titulo = 'API com Node.js e Express'
+            informacoes = 'Desenvolvi a API que comunica as requisições do back-end utilizando node.js afim de alinhar meu conhecimento prévio em javaScript e realizar as requisições afim de solucionar as demandas com prazos curtos. O banco de dados utilizado foi o MySQL, utilizando das relações entre as tabelas para minimizar qualquer resundância de dados.'
+            />
+
             <Footer/>
         </>
     )

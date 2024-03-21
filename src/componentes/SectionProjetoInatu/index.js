@@ -5,25 +5,28 @@ import processos from '../../assets/img/processosInatu.png';
 import CRUD from '../../assets/img/CRUDInatu.png';
 import rastreabilidade from '../../assets/img/rastreabilidadeInatu.png';
 
+import styles from './SectionProjetoInatu.module.css';
+
 
 export default function SectionProjetoInatu() {
-    return(
-        <>
+    return (
+        <section className={styles.principal}>
             <h1>Plataforma Inatú</h1>
-            <img src={principal}/>
+            <img className={styles.image} src={principal} />
             <p>
                 O Sistema de Gestão Produtiva da marca coletiva das comunidades da Amazônia.
             </p>
 
-            <div>
-                <h2>Funcionalidade</h2>
+            <div className={styles.horizontal}>
                 <ul>
+                    <h2>Funcionalidade</h2>
                     <li>Gestão Produtiva</li>
                     <li>Gestão Administrativa</li>
                     <li>Rastreabilidade</li>
                 </ul>
-                <h2>Tecnologias Utilizadas</h2>
+
                 <ul>
+                    <h2>Tecnologias Utilizadas</h2>
                     <li>JavaScript</li>
                     <li>React.js</li>
                     <li>Node.js</li>
@@ -31,18 +34,18 @@ export default function SectionProjetoInatu() {
                 </ul>
             </div>
 
-            <div>
+            <div className={styles.card}>
                 <h2>Login</h2>
-                <img src={login}/>
+                <img className={styles.image} src={login} />
                 <p>
-                    Sistema de login utilizando serviços do Firebase para autenticação, 
+                    Sistema de login utilizando serviços do Firebase para autenticação,
                     usando contexto global para gerenciar usuraios "AuthContext".
                 </p>
             </div>
 
-            <div>
+            <div className={styles.card}>
                 <h2>Controle e Precificação de Processos</h2>
-                <img src={processos}/>
+                <img className={styles.image} src={processos} />
                 <p>
                     Cada matéria prima passa por diferentes processos para que seja extraido o óleo.
                     A plataforma conduz o passa a passo registrando todos os gastos, como mão de obra,
@@ -50,23 +53,23 @@ export default function SectionProjetoInatu() {
                 </p>
             </div>
 
-            <div>
+            <div className={styles.card}> 
                 <h2>CRUD</h2>
-                <img src={CRUD}/>
+                <img className={styles.image} src={CRUD} />
                 <p>
                     Todos as operações principais são realizadas, get, post, put e delete.
                 </p>
             </div>
 
-            <div>
+            <div className={styles.card}>
                 <h2>Rastreabilidade</h2>
-                <img src={rastreabilidade}/>
+                <img className={styles.image} src={rastreabilidade} />
                 <p>
                     Todas as informações de coleta e de processo que o óleo sofreu são armazenadas
                     e a cada lote frabricado  é gerado um QRcode que leva a página com as informações
                     de seus respectivos lotes.
                 </p>
             </div>
-        </>
+        </section>
     )
 }

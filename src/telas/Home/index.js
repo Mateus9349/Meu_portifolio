@@ -13,7 +13,7 @@ import  imagem3 from'../../img/camara.jpeg'
 import  imagem4 from'../../img/curso_web_mobile.jpg'
 
 const images = [{name: 'Exercito', image: imagem1}, 
-{name: 'Faculdade', image: imagem2},
+{name: 'Engenharia da Computação', image: imagem2},
 {name: 'Estagio Camara Municipal', image: imagem3},
 {name: 'Formação Web Mobile', image: imagem4}
 ]

@@ -10,7 +10,7 @@ export default function NavBar(){
             </div>
             <nav className="nav">
                 <Link className="link" to='/cursos' >Cursos</Link>
-                <Link className="link" to='/estagios' >Estagios</Link>
+                <Link className="link" to='/estagios' >Experiência</Link>
                 <Link className="link" to='/projetos' >Projetos</Link>
             </nav>    
         </header>
